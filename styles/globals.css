@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jomolhari&display=swap');
+
+:root {
+  --brand-primary: rgb(34, 43, 53);
+  --brand-secondary: #368F8B;
+  --off-white: #F5F1EC;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: var(--white);
+}
+
+#__next {
+  min-height: 100%;
+}
+
+body {
+  color: var(--black);
+  background-color: var(--white);
+  font-family: 'Inter', arial, sans-serif;
+  font-weight: 400;
+}
